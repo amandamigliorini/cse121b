@@ -14,7 +14,7 @@ const newSection = document.createElement("section");
 const newH2 = document.createElement("h2");
 const newPara = document.createElement("p");
 newH2.innerHTML = "CSE 121b";
-newPara.innerText = ward;
+newPara.innerHTML = ward;
 newSection.appendChild(newH2);
 newSection.appendChild(newPara);
 document.body.appendChild(newSection);
