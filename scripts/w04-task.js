@@ -4,7 +4,7 @@
 
 let myProfile = {
     name: "Amanda Cristina Schneider Migliorini",
-    image: "images/IMG_8016.JPG",
+    photo: "images/IMG_8016.JPG",
     favoriteFoods: ["Pizza", "Strogonoff", "Brigadeiro"],
     hobbies: ["Coding",
               "Reading",
@@ -12,7 +12,6 @@ let myProfile = {
     placesLived: [],
                 
 };
-
 
 /* Populate Profile Object with placesLive objects */
 myProfile.placesLived.push({place: "Capanema, Paraná", length: "13 years"}, {place: "Toledo, Paraná", length: "22 years"});
@@ -24,7 +23,7 @@ myProfile.placesLived.push({place: "Capanema, Paraná", length: "13 years"}, {pl
 document.querySelector("#name").textContent = myProfile.name;
 
 /* Photo with attributes */
-document.querySelector("#photo").setAttribute("src", myProfile.image);
+document.querySelector("#photo").setAttribute("src", myProfile.photo);
 document.querySelector("#photo").setAttribute("alt", myProfile.name);
 
 /* Favorite Foods List*/
@@ -47,8 +46,8 @@ myProfile.placesLived.forEach(place => {
     myplace.textContent = place.place;
     let placeLength = document.createElement("dd");
     placeLength.textContent = place.length;
-    myplace.appendChild(placeLength);
     document.querySelector("#places-lived").appendChild(myplace);
+    document.querySelector("#places-lived").appendChild(placeLength); //alternative way: myplace.appendChild(placeLength);
     
 });
 

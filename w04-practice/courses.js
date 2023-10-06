@@ -21,36 +21,28 @@ function outputSections(sections){
     document.querySelector('#sections').innerHTML = html.join("");
 }
 
-
-enrollStudent: function (sectionNum) {
-    // find the right section...Array.findIndex will work here
-    const sectionIndex = this.sections.findIndex(
-      (section) => section.sectionNum == sectionNum
-    );
-    if (sectionIndex >= 0) {
-      this.sections[sectionIndex].enrolled++;
-      renderSections(this.sections);
-    }
-  };
-  dropStudent: function (sectionNum) {
-    // find the right section...Array.findIndex will work here
-    const sectionIndex = this.sections.findIndex(
-      (section) => section.sectionNum == sectionNum
-    );
-    if (sectionIndex >= 0) {
-      this.sections[sectionIndex].enrolled--;
-      renderSections(this.sections);
-    }
-  };
-
 document.getElementById('enrollStudent').addEventListener('click', function(){
     const sectionNum = document.querySelector('#sectionNumber').value;
-    aCourse.enrollStudent(sectionNum);
+    const sectionIndex = aCourse.sections.findIndex(
+      (section) => section.sectionNum == sectionNum
+    );
+    if (sectionIndex >= 0) {
+      aCourse.sections[sectionIndex].enrolled++;
+      outputSections(aCourse.sections);
+    }
 });
 document.querySelector('#dropStudent').addEventListener('click', function(){
     const sectionNum = document.querySelector('#sectionNumber').value;
-    aCourse.dropStudent(sectionNum);
+    const sectionIndex = aCourse.sections.findIndex(
+      (section) => section.sectionNum == sectionNum
+    );
+    if (sectionIndex >= 0) {
+      aCourse.sections[sectionIndex].enrolled--;
+      outputSections(aCourse.sections);
+    }
 });
 
 addData(aCourse);
 outputSections(aCourse.sections);
+
+
