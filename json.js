@@ -11,7 +11,8 @@
                         5: "Pour the dough into a rectangular shape pan, greased with butter and sprinkled with wheat flour and place in a preheated medium oven (180°C) for around 20 minutes.",
                         6: "Unmold and let it cool. Cut in squares and serve."
                     },
-        "imageUrl": "https://github.com/amandamigliorini/cse121b/blob/main/images/pexels-alesia-kozik-6072096.jpg"
+        "imageUrl": "https://github.com/amandamigliorini/cse121b/blob/main/images/pexels-alesia-kozik-6072096.jpg",
+        "imageAlt": "Image of Brownie",
     },
     {
         "recipeName":"Green Soup",
@@ -24,6 +25,7 @@
                         4: "Return it to a pan and boil for two minutes",
                         5: "You can add other spices as you wish.",
                     },
-        "imageUrl": "https://github.com/amandamigliorini/cse121b/blob/main/images/pexels-alesia-kozik-6072096.jpg"
+        "imageUrl": "https://github.com/amandamigliorini/cse121b/blob/main/images/IMG_3796.JPG",
+        "imageAlt": "Image of Green Soup in a Plate",
     },
 ]
