@@ -1,4 +1,4 @@
-import {getRecipes, displayRecipes, reset, sortBy, recipesElement, recipesList, searchBy} from "./projectModules.js";
+import {getRecipes, displayRecipes, reset, sortBy, recipesList, searchBy} from "./projectModules.js";
 
 document.querySelector('#sortBy').addEventListener('change', () => sortBy(recipesList));
 document.querySelector('#btnSearch').addEventListener('click', () => searchBy(recipesList));
