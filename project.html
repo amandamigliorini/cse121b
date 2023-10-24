@@ -12,12 +12,12 @@
         <a id="logo_link" href="project.html">
          <img class="logo" src="images/logoRecipies.png" alt="Recipies Logo"></a>
         <a href="project.html">Home</a>
-        <a href="converting.html">Converting</a>
+
       </nav>        
     </header>
     <main id="gridly">
       <h1>Cooking With Love</h1>
-      <h2>Turn Ingredients into Magic</h2>
+      <h2 id="subtitle">Turn Ingredients into Magic</h2>
 
       <div class="searching">
         <div>
@@ -36,21 +36,24 @@
           <div id="searchBy">
               <label for="search">Ingredient:</label>
               <input type="text" id="search" name="search">
+              <button id="btnSearch">Search</button>
+          </div>
+
+          <div>
+            <button id="btnBack">Back</button>
           </div>
       </div>
         
-      <div id="recipies">
+      <div id="recipes">
       </div>
       
-
     </main>
 
-    
     <footer>
       <p>Cooking With Love &copy; 2023 - Amanda Migliorini | PROJECT | CSE 121b</p>
     </footer>
-
-    <script src="scripts/project.js"></script>
+    <script src="scripts/project.js" type="module"></script>
+    
     </body>
     
     </html>

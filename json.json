@@ -1,0 +1,173 @@
+[
+    {
+        "recipeName":"Brownies",
+        "category": ["Desserts"],
+        "ingredients": {
+            "Dark Chocolate":"150g",
+            "Butter": "50g", 
+            "brown sugar":"120g",
+            "Sugar":"60g"
+        },
+        "description": {"1": "In a pan add the Chocolate and butter and heat in a water bath until you obtain a homogeneous cream.",
+                        "2": "Add brown sugar and sugar and stir until well dissolved.",        
+                        "3": "In a container, beat the eggs with the vanilla essence and mix with the chocolate cream.",
+                        "4": "Add the wheat flour, yeast and nuts.",
+                        "5": "Pour the dough into a rectangular shape pan, greased with butter and sprinkled with wheat flour and place in a preheated medium oven (180°C) for around 20 minutes.",
+                        "6": "Unmold and let it cool. Cut in squares and serve."
+                    },
+        "imageUrl": "https://raw.githubusercontent.com/amandamigliorini/cse121b/main/images/10960574_772217749539937_7782004857213227368_o.jpg",
+        "imageAlt": "Brownie Image"
+    },
+
+    {
+        "recipeName":"Green Soup",
+        "category": ["Dinner and Lunch", "NoMilk"],
+        "ingredients": {
+            "potatos":"4",
+            "garlic":"8",
+            "carrot":"1",
+            "collard greens":"4",
+            "chicken breasts":"1/2",
+            "salt": "as needed"
+        },
+        "description": {"1": "Chop the potatoes and carrot into cubes and cook in the pressure cooker for 15 minutes. Then put it to drain, set aside.",
+                        "2": "Chop the chicken breast into large cubes, add the garlics and cook in the pressure cooker with 2 cups of water or enough water to cover the chicken.",        
+                        "3": "Purée chicken, potatoes, carrot and collard greens with a blender",
+                        "4": "Return it to a pan and boil for two minutes",
+                        "5": "You can add other spices as you wish."
+                    },
+        "imageUrl": "https://raw.githubusercontent.com/amandamigliorini/cse121b/main/images/IMG_3796.JPG",
+        "imageAlt": "Green Soup in a Plate Image"
+    },
+    {
+        "recipeName":"Cookies",
+        "category": ["Desserts"],
+        "ingredients": {
+            "butter":"120g",
+            "brown sugar":"75g",
+            "egg":"1",
+            "vanilla extract":"1 tsp",
+            "bicarbonate of soda":"1/2 tsp",
+            "Dark Chocolate": "150g"
+        },
+        "description": {"1": "Heat oven to 180C/160C fan/gas 4 and line two baking sheets with parchment.",
+                        "2": "Cream the butter (melted) and sugars together until very light and fluffy, then beat in the egg and vanilla. Once combined, stir in the flour, bicarb, chocolate and ¼ tsp salt.",        
+                        "3": "Scoop 10 large tbsps of the mixture onto the trays, leaving enough space between each to allow for spreading.",
+                        "4": "Bake for 10-12 mins or until firm at the edges but still soft in the middle – they will harden a little as they cool.",
+                        "5": "Leave to cool on the tray for a few mins before eating warm, or transfer to a wire rack to cool completely. ."
+                    },
+        "imageUrl": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/video-api/assets/62298.jpg?resize=600:*&output-format=auto&output-quality=auto",
+        "imageAlt": "Chocolate Chips Cookies Image"
+    },
+    {
+        "recipeName":"Veggie Garlic Noodles",
+        "category": ["Dinner and Lunch", "NoMilk"],
+        "ingredients": {
+            "vegetable oil":"30ml",
+            "garlic":"5",
+            "green onions":"4",
+            "carrot":"2",
+            "brown sugar":"2 tbsp",
+            "Soy sauce": "2 tbsps",
+            "Rice noodles": "250g"
+        },
+        "description": {"1": "Heat the vegetable oil in a large skillet over medium heat.",
+                        "2": "Add the garlic and 3 green onions and cook for 2–3 minutes, until fragrant and tender.",        
+                        "3": "Add the carrots and snap peas, then stir in the brown sugar and soy sauce.",
+                        "4": "Add the noodles (cooked and dried) and toss for a couple of minutes, until the noodles are well-coated and the vegetables are tender. Season with salt and pepper.",
+                        "5": "Serve immediately, garnished with the remaining green onion."
+                    },
+        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2021-03/19/1/asset/8d6a3e9542d2/sub-buzz-2526-1616118067-7.jpg?downsize=700%3A%2A&output-quality=auto&output-format=auto",
+        "imageAlt": "Veggie Garlic Noodles Image"
+    },
+    {
+        "recipeName":"One-Pot Mac 'n' Cheese",
+        "category": ["Dinner and Lunch"],
+        "ingredients": {
+            "Whole Milk":"1.25l",
+            "elbow macaroni":"1 box",
+            "butter":"115g",
+            "Cheddar Cheese":"200g",
+            "salt":"to taste",
+            "fresh parsley": "to serve"
+        },
+        "description": {"1": "In a large pot on medium-high heat, gently bring the milk to a simmer over medium heat. ",
+                        "2": "Add the macaroni and cook until tender. Remove the pot from the heat.",        
+                        "3": "Add the butter (unsalted ), cheddar, salt, and pepper to the noodles and stir until the cheese and butter melt into the milk to create a thick sauce that coats the noodles.",
+                        "4": "Sprinkle with parsley and serve.",
+                        "5": "Enjoy!"
+                    },
+        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2021-03/19/3/asset/461a26628b04/sub-buzz-2630-1616124243-4.jpg?downsize=600:*&output-format=auto&output-quality=auto",
+        "imageAlt": "One-Pot Mac 'n' Cheese Image"
+    },
+    {
+        "recipeName":"Vegan Pudding",
+        "category": ["Desserts", "NoMilk"],
+        "ingredients": {
+            "coconut milk":"480ml",
+            "sugar":"200g",
+            "salt":"1/2 tsp",
+            "cinnamon":"3 sticks",
+            "water":"120ml"
+        },
+        "description": {"1": "In a saucepan over medium-high heat, add the coconut milk, sugar, salt, and cinnamon sticks.",
+                        "2": "Use the hand mixer to mix until the sugar and salt dissolve and let the mixture boil slightly.",        
+                        "3": "While you wait for the coconut milk to boil, add the cornstarch and water to a cup or glass with a lid and stir or whisk well until all the cornstarch dissolves and there are no lumps. It should be like a watery milkshake.",
+                        "4": "When the coconut milk starts to boil, remove the cinnamon sticks. Then, lower the heat.",
+                        "5": "Add the cornstarch water shake, beating constantly. Continue beating until form a thick cream but still liquid.",
+                        "6": "Remove from heat and immediately add to your favorite mold(s). Use the flexible spatula to remove the liquid.",
+                        "7": "Let the mixture cool to room temperature until you can comfortably touch the mold. Then, refrigerate the mixture for 3 hours.",
+                        "8": "To serve, flip the tembleque onto a serving plate."
+                    },
+        "imageUrl": "https://img.buzzfeed.com/tasty-app-user-assets-prod-us-east-1/recipes/ceaced4fc4414a01badda35ef34726fc.jpeg?resize=1000:*&output-format=auto&output-quality=auto",
+        "imageAlt": "Vegan Pudding Image"
+    },
+    {
+        "recipeName":"Ham Fried Rice",
+        "category": ["Dinner and Lunch", "NoMilk"],
+        "ingredients": {
+            "sesame oil":"6 tbsp",
+            "Spiral-Cut Ham":"135g",
+            "eggs":"2",
+            "green onions":"4",
+            "snap peas":"150 g bais-cut",
+            "carrot": "1",
+            "rice": "600g", 
+            "Soy sauce":"2 tbsps",
+            "cilantro": "1 tbsp",
+            "sesame seeds": "3 tbsp"
+        },
+        "description": {"1": "Heat 2 tablespoons of sesame oil in a large, high-walled skillet over medium heat. Add the Spiral-Cut Ham and fry until warmed through and browned, about 3–4 minutes. Transfer the ham to a medium bowl and set aside.",
+                        "2": "Add another 2 tablespoons of sesame oil to the pan, then add the beaten eggs. Cook, stirring, for 1–2 minutes, until the eggs are soft-scrambled. Add to the bowl with the ham and set aside.",        
+                        "3": "Add the remaining 2 tablespoons of sesame oil to the pan, then add all but 2 tablespoons of the green onions, the snap peas, and the carrot. And cook for 4–5 minutes, until the vegetables are just tender. Remove the pan from the heat.",
+                        "4": "Add the rice, ham, and egg to the pan with the vegetables and stir to combine. Add the soy sauce and stir to evenly distribute.",
+                        "5": "Serve the fried rice topped with the cilantro, sesame seeds, reserved green onions, and Sriracha, if desired."
+                    },
+        "imageUrl": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/a655b287b2e8417f8873234689e03ec0/WALMART_Holiday2020Ham3Ways_FB.jpg?resize=600:*&output-format=auto&output-quality=auto",
+        "imageAlt": "Ham Fried Rice Image"
+    },
+    {
+        "recipeName":"Blueberry Cream Muffins",
+        "category": ["Desserts"],
+        "ingredients": {
+            "eggs":"4",
+            "sugar":"400g (granulated)",
+            "vegetable oil":"240ml",
+            "vanilla extract":"1 tbsp",
+            "flour":"500g",
+            "baking soda": "1 tsp",
+            "baking powder": "2 tsp", 
+            "sour cream":"490g",
+            "blueberry": "200g"
+        },
+        "description": {"1": "In a mixing bowl, beat eggs. Gradually add sugar. While beating slowly pour in oil. Add vanilla.",
+                        "2": "Combine the dry ingredients.",        
+                        "3": "Add dry ingredients alternately with sour cream to the egg mixture.",
+                        "4": "Gently add blueberries",
+                        "5": "Spoon into the greased muffin tin or paper liners",
+                        "6": "Bake at 400°F (200°C) for 20 minutes."
+                    },
+        "imageUrl": "https://img.buzzfeed.com/tasty-app-user-assets-prod-us-east-1/recipes/4e9524578f544c888af761e10630593b.jpeg?resize=1000:*&output-format=auto&output-quality=auto",
+        "imageAlt": "Bluerberry Cream Muffins Image"
+    }
+]
